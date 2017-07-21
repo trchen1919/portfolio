@@ -12,7 +12,7 @@
   <div>
     <h2 style="text-align:center">About Me</h2>
     <div style="text-align: center">
-      <img src="senior pic2.jpg" alt="Picture of Me" width="200" height="300" style="margin: 10px 0px">
+      <img id = "profile" src="senior pic2.jpg" alt="Picture of Me" width="200" height="300" style="margin: 10px 0px" onmouseover="this.style.width='300px'; this.style.height='450px';" onmouseout="this.style.width='200px'; this.style.height='300px';">
     </div>
     <p style="text-align:center; padding-left:300px; padding-right: 300px;">I'm from Westford, Massachusetts which is a small town outside of Boston. I am a Computer Science major and an Education minor at Cornell University,
       and I will be entering junior year this coming fall. Below is a list of a few fun facts:
@@ -22,6 +22,8 @@
       <li>Favorite Animal: Sea Otter</li>
       <li>Hobbies: Exercising, Watching Movies/TV, Playing Board Games, Playing/Listening to Music</li>
     </ul>
+    <p style="text-align:center; padding-left:300px; padding-right: 300px;" onclick="this.innerHTML='Here is more information About Me that I dont want to think of while I am currently writing this code!';">Click Me For More Info!</p>
+
   </div>
 
   <div style="text-align:center">
